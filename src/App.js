@@ -1,11 +1,10 @@
-
 import './App.css';
-import Moneda from './Component/Moneda'
+import Frase from './Component/Frase'
 function App() {
 
   return (
     <div className="App">
-      <Moneda/>
+      <Frase/>
     </div>
   );
 }
