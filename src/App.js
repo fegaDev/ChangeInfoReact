@@ -1,11 +1,11 @@
 
 import './App.css';
-import Reyes from './Component/Reyes'
+import Moneda from './Component/Moneda'
 function App() {
 
   return (
     <div className="App">
-      <Reyes/>
+      <Moneda/>
     </div>
   );
 }

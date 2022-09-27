@@ -1,0 +1,52 @@
+.monedaContainer{
+    width: 400px;
+    margin: 5% auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: rgba(106, 149, 187, 0.548);
+    border-radius: 18px;
+    box-shadow: 1px 1px 10px  black;
+}
+.tipoMonedas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.euro,.dolar,.pesoArgentino,.pesoMexicano,.libraEsterlina,.rublo{
+    padding: 5px;
+    text-align: center;
+    color: rgb(39, 37, 185);
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black;
+    margin: 2px;
+}
+.ingreso{
+    margin: 15px 0;
+}
+.monedaContainer p{
+    margin: 0;
+}
+.ingresarCantidad{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-shadow: 1px 1px 2px gray;
+}
+input{
+    width: 100px;
+    border-radius: 15px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    box-shadow: 1px 0px 2px black;
+    color: rgba(141, 30, 30, 0.699);
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+span{
+    font-size: 28px;
+}
